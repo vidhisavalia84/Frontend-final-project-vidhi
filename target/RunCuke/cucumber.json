@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4360712800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should navigated to Slingo  with vergin games page successfully",
+        "description": "",
+        "id": "virgin-game-homepage;user-should-navigated-to-slingo--with-vergin-games-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1162023900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82229000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2146365700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User accept cookies",
+            "match": {
+              "location": "HomePageSteps.userAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1107566700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Slingo tab",
+            "match": {
+              "location": "HomePageSteps.userClickOnSlingoTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031873900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be navigated to slingo with vergin games page successfully",
+            "match": {
+              "location": "HomePageSteps.userShouldBeNavigatedToSlingoWithVerginGamesPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Virgin Game HomePage",
+    "description": "",
+    "id": "virgin-game-homepage",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
